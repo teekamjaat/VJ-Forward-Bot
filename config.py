@@ -6,7 +6,7 @@ from os import environ
 
 class Config:
     API_ID = int(environ.get("API_ID", "22349465"))
-    API_HASH = environ.get("API_HASH", "3732e079c4125690226d8e7b4e028ca4'")
+    API_HASH = environ.get("API_HASH", "3732e079c4125690226d8e7b4e028ca4")
     BOT_TOKEN = environ.get("BOT_TOKEN", "7548642037:AAHPqojyBrJ0-QJKIBGgkiUhdfhHd725kBc") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://forward:forward@forwardbot.sc9fh.mongodb.net/?retryWrites=true&w=majority&appName=forwardbot")
